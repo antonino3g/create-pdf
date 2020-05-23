@@ -3,6 +3,9 @@ Baseia-se em um protótipo genérico para um formulário do técnico de campo de
 
 Dito isso, este projeto ao receber as informações fornecidas no formulário, gerará um arquivo PDF para impressão. Sua estrutura pode ser usada em outros projetos **livremente**.
 
+<p align="center">
+  <img alt="covid19-tracker" src="client/src/assets/new-exemple.gif" width="60%">
+</p>
 
 
 ## :hammer_and_wrench: Build
@@ -22,10 +25,14 @@ $ git clone https://github.com/apfjunior/create-pdf.git
 # Entre no projeto
 $ cd create-pdf
 
-# Instale as dependências do projeto
-$ npm i
+# Instale as dependências do "client" e "server" projeto. Desta forma:
+# Client
+$ cd client && npm i
 
-# Serão necessários 02 terminais para execucão. Um para o "client" 
+# Server
+$ cd server && npm i
+
+# Serão necessários 02 terminais simultâneos para execucão. Um para o "client" 
 $ cd client && npm start
 
 # Outro para o "server"
