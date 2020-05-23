@@ -40,6 +40,13 @@ $ cd client && npm start
 $ cd server && npm start
 ```
 
+## :recycle: Como contribuir
+
+- Fork esse repositório;
+- Crie uma branch com a sua feature: `git checkout -b my-feature`
+- Commit suas mudanças: `git commit -m 'feat: My new feature'`
+- Push a sua branch: `git push origin my-feature`
+
 ## :memo:  License
 
 This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
