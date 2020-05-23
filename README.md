@@ -23,7 +23,7 @@ $ cd create-pdf
 # Instale as dependências do projeto
 $ npm i
 
-# Serão necessários 02 terminais. Um para o "client" 
+# Serão necessários 02 terminais para execucão. Um para o "client" 
 $ cd client && npm start
 
 # Outro para o "server"
