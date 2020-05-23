@@ -1,4 +1,4 @@
-## :printer: About Project
+## :bulb: Sobre o Projeto
 Baseia-se em um protótipo genérico para um formulário do técnico de campo de TI da empresa SONDA/CTIS. Pois quando surge alguma ordem de serviço fora do sistema padrão da empresa, o técnico deverá imprimir uma OS em branco e preencher manualmente. Desta forma, muitas das vezes, algumas informacões não eram compreensíveis no ato da leitura pelo setor responsável. 
 
 Dito isso, este projeto ao receber as informações fornecidas no formulário, gerará um arquivo PDF para impressão. Sua estrutura pode ser usada em outros projetos **livremente**.
