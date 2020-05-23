@@ -11,6 +11,7 @@ class App extends Component {
     os:'',
     nameUni: '',
     adress: '',
+    city: '',
     cep: '',
     uf: '',
     userName: '',
@@ -20,21 +21,14 @@ class App extends Component {
     printModel: '',
     ns: '',
     pagCount: '',
+    ip: '',
     mask: '',
     gateway: '',
     description: '',
-    descriptionSupNecessario: '',
-    partNumberNecessario: '',
-    qntNecessario: '',
-    motivoNecessario: '',
-    descriptionSupTrocado: '',
-    partNumberTrocado: '',
-    qntTrocado: '',
-    motivoTrocado: '',
     dataAtend: '',
     timeCheg: '',
     timeStart: '',
-    timeStop: '',
+    timeFinish: '',
     timeOut: '',
     nameTEc: '',
     nameUserAssinatura: '',
@@ -60,10 +54,11 @@ class App extends Component {
             <img src={logoImg} alt="Be The Hero" />
             <h1>Relatório de Atendimento - RAT Manual</h1>
           </section>
-          <input className="os" type="text" placeholder="N. OS" name="os" onChange={this.handleChange}/>
+          <input className="os" type="text" placeholder="N° OS" name="os" onChange={this.handleChange}/>
           <p>Dados do Projeto</p>
           <input type="text" placeholder="Nome da Unidade" name="nameUni" onChange={this.handleChange}/>
-          <input type="text" placeholder="Endereço" name="adress" onChange={this.handleChange} />
+          <input type="text" placeholder="Endereço e Bairro" name="adress" onChange={this.handleChange} />
+          <input type="text" placeholder="Cidade" name="city" onChange={this.handleChange} />
           <input type="text" placeholder="CEP" name="cep" onChange={this.handleChange} />
           <input type="text" placeholder="UF" name="uf" onChange={this.handleChange} />
           <input type="text" placeholder="Nome Completo do Contato" name="userName" onChange={this.handleChange} />
@@ -78,21 +73,7 @@ class App extends Component {
           <input type="text" placeholder="IP" name="ip" onChange={this.handleChange} />
           <input type="text" placeholder="Máscara de rede" name="mask" onChange={this.handleChange} />
           <input type="text" placeholder="Gateway" name="gateway" onChange={this.handleChange} />
-          <textarea placeholder="Resumo do Serviços Executados / Observações" name="description" onChange={this.handleChange} />
-          
-          <p>Peças Necessárias</p>
-          <h6>*caso não haja, deixar em branco*</h6>
-          <input type="text"  placeholder="Descrição Peça / Suprimento" name="descriptionSupNecessario" onChange={this.handleChange} />
-          <input type="text" placeholder="Part Number" name="partNumber" onChange={this.handleChange} />
-          <input type="text" placeholder="Quantidade" name="qnt" onChange={this.handleChange} />
-          <input type="text" placeholder="Motivo da Necessidade" name="motivo" onChange={this.handleChange} />
-
-          <p>Peças Trocadas</p>
-          <h6>*caso não haja, deixar em branco*</h6>
-          <input type="text" placeholder="Descrição Peça / Suprimento" name="descriptionSupTrocado" onChange={this.handleChange} />
-          <input type="text" placeholder="Part Number" name="partNumberTrocado" onChange={this.handleChange} />
-          <input type="text" placeholder="Quantidade" name="qntTrocado" onChange={this.handleChange} />
-          <input type="text" placeholder="Motivo da Necessidade" name="motivoTrocado" onChange={this.handleChange} />
+          <textarea placeholder="Resumo do Serviços Executados / Pedidos de Peças e Suprimentos / Observações" name="description" onChange={this.handleChange} />
           
           <p>Validação do Atendimento</p>
           <div className="input-group">
@@ -104,7 +85,7 @@ class App extends Component {
           </div>
 
           <input type="text" placeholder="Nome Completo do Técnico" name="nameTec" onChange={this.handleChange} />
-          <input type="text" placeholder="Nome Completo do Usuário para Assinatura" name="nameUserAssinatura" onChange={this.handleChange} />
+          <input type="text" placeholder="Nome Completo do Usuário(a) para Assinatura" name="nameUserAssinatura" onChange={this.handleChange} />
           
           <button className="button" onClick={this.createAndDownloadPdf}>Download PDF</button>
         </div>
