@@ -1,7 +1,7 @@
 ## :bulb: Sobre o Projeto
 Baseia-se em um protótipo genérico para um formulário do técnico de campo de TI da empresa SONDA/CTIS. 
 
-Cenário do Problema:  Quando surge alguma ordem de serviço fora do sistema padrão da empresa, o técnico deverá imprimir uma OS em branco e preencher manualmente. Desta forma, muitas das vezes, algumas informações não eram compreendidas no ato da leitura pelo setor responsável.
+**Cenário do Problema:**  Quando surge alguma ordem de serviço fora do sistema padrão da empresa, o técnico deverá imprimir uma OS em branco e preencher manualmente. Desta forma, muitas das vezes, algumas informações não eram compreendidas no ato da leitura pelo setor responsável.
 
 Dito isso, este projeto ao receber as informações fornecidas no formulário, gerará um arquivo PDF para impressão. Sua estrutura pode ser usada em outros projetos **livremente**.
 
