@@ -4,7 +4,7 @@ Baseia-se em um protótipo genérico para um formulário do técnico de campo de
 Dito isso, este projeto ao receber as informações fornecidas no formulário, gerará um arquivo PDF para impressão. Sua estrutura pode ser usada em outros projetos **livremente**.
 
 <p align="center">
-  <img alt="covid19-tracker" src="client/src/assets/new-exemple.gif" width="60%">
+  <img alt="new-exemple" src="client/src/assets/new-exemple.gif" width="60%">
 </p>
 
 
