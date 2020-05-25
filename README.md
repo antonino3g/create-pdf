@@ -51,7 +51,7 @@ $ cd server && npm start
 
 ## :memo:  License
 
-This project is licensed under the MIT License - see the [LICENSE](https://opensource.org/licenses/MIT) page for details.
+MIT License - Veja [LICENSE](https://opensource.org/licenses/MIT) para mais detalhes.
 
 -----
 :wave: [Let's Connect!](https://www.linkedin.com/in/antoninopraxedes/)
