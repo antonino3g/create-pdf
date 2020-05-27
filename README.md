@@ -54,6 +54,8 @@ $ cd server && npm start
 MIT License - Veja [LICENSE](https://opensource.org/licenses/MIT) para mais detalhes.
 
 -----
-:wave: [Let's Connect!](https://www.linkedin.com/in/antoninopraxedes/)
+**by Antonino Praxedes :wave: [Get in touch!](https://www.linkedin.com/in/antoninopraxedes/)**
+
+
 
 
