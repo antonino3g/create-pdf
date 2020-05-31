@@ -21,24 +21,24 @@ Dito isso, este projeto ao receber as informações fornecidas no formulário, g
 
 ## :information_source: How To Use
 ```bash
-# Clone esse repositório
+## Clone esse repositório
 $ git clone https://github.com/apfjunior/create-pdf.git
 
-# Entre no projeto
+## Entre no projeto
 $ cd create-pdf
 
-# Instale as dependências do "client" e "server" projeto. Desta forma:
+## Instale as dependências do "client" e "server" projeto. Desta forma:
 
-# Client
+## Client
 $ cd client && npm i
 
-# Server
+## Server
 $ cd server && npm i
 
-# Serão necessários 02 terminais simultâneos para execucão. Um para o "client" 
+## Serão necessários 02 terminais simultâneos para execucão. Um para o "client" 
 $ cd client && npm start
 
-# Outro para o "server"
+## Outro para o "server"
 $ cd server && npm start
 ```
 
