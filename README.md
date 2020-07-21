@@ -3,7 +3,7 @@
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/apfjunior/create-pdf">
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/apfjunior/create-pdf">
   <a href="https://github.com/apfjunior">
-    <img alt="Made by Marlon Marques" src="https://img.shields.io/badge/made%20by-Antonino%20Praxedes-blue">
+    <img alt="Made by Antonino Praxedes" src="https://img.shields.io/badge/made%20by-Antonino%20Praxedes-blue">
   </a>
 </p>
 
